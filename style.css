@@ -1,2 +1,84 @@
 html { box-sizing: border-box; }
 *, :after, :before { box-sizing: inherit; }
+
+body { 
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    color: #8B8B8B;
+    background-color: #FAFAFA;
+    text-align: center;
+    margin: 60px 20px 60px 20px;
+}
+
+h1 {
+    font-size: 28px;
+    color: #000000;
+    text-align: center;
+    margin: 40px 0 10px 0;
+    font-weight: 500;
+}
+
+h2 {
+    font-size: 16px;
+    color: #000000;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 15px;
+    font-weight: 500;
+}
+.Cestovatel {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+   
+}
+.Karticka {
+    margin-top: 15px;
+    border-radius: 10px;
+	padding: 20px;
+	text-align: center;
+    background-color: #FFFFFF;
+    font-size: 13px;
+    box-shadow: 5px 5px 5px #407BFF1F;
+    display: flex;
+	flex-wrap: wrap;
+}
+
+.ObrazkyKarticek {
+    margin-right: 20px;
+}
+
+hr {
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+.Button {
+    border-radius: 30px;
+    color: white;
+    padding: 15px 20px;    
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    margin-left: auto;
+    margin-right: auto;
+    
+  }
+
+.Dobrodruzstvi {
+    background-color: #407BFF;
+    margin-top: 30px;
+    width: 195px;
+}
+
+.Pohoda {
+    background-color: #8B8B8B;
+    margin-top: 10px;
+    width: 220px;
+}
+.Mapa, .Palma {
+    margin-top: 30px;
+}
