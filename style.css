@@ -6,7 +6,6 @@ html {
 :before {
   box-sizing: inherit;
 }
-
 body {
   font-family: "Montserrat", sans-serif;
   font-size: 16px;
@@ -16,7 +15,6 @@ body {
   text-align: center;
   margin: 60px 20px 60px 20px;
 }
-
 h1 {
   font-size: 28px;
   color: #000000;
@@ -24,7 +22,6 @@ h1 {
   margin: 40px 0 10px 0;
   font-weight: 500;
 }
-
 h2 {
   font-size: 16px;
   color: #000000;
@@ -48,7 +45,6 @@ h2 {
   box-shadow: 5px 5px 5px #407bff1f;
   display: flex;
 }
-
 .ObrazkyKarticek {
   margin-right: 20px;
 }
@@ -60,7 +56,6 @@ hr {
 p {
   margin: 30px 0 0 0;
 }
-
 .Button {
   border-radius: 30px;
   color: white;
@@ -74,18 +69,15 @@ p {
   margin-right: auto;
   list-style: none;
 }
-
 .tlacitka {
   list-style: none;
 }
-
 .Dobrodruzstvi {
   background-color: #407bff;
   margin-top: 30px;
   width: 195px;
   height: 40px;
 }
-
 .Pohoda {
   background-color: #8b8b8b;
   margin-top: 10px;
@@ -106,17 +98,14 @@ p {
   .Dobrodruzstvi {
     margin-right: 20px;
   }
-
   .Pohoda {
     margin-top: 30px;
   }
-
   .Sluzby,
   .Delegati {
     display: flex;
     margin-top: 40px;
   }
-
   .Mapa,
   .Palma,
   .Slunečník,
@@ -125,14 +114,12 @@ p {
   .Kaktus {
     margin-top: 0;
   }
-
   .Mapa,
   .Palma,
   .Slunečník,
   .Kaktus {
     margin-right: 20px;
   }
-
   .Karticka {
     flex-basis: 33.33333333%;
     display: flex;
@@ -140,13 +127,77 @@ p {
     justify-content: space-around;
     padding: 40px 15px 20px 15px;
   }
-
   .ObrazkyKarticek {
     margin-right: 0;
   }
-
   p {
     margin-top: 20px;
     height: 50px;
+  }
+}
+
+@media screen and (min-width: 1100px) {
+  body {
+    width: 1040px;
+    margin: 60px auto;
+  }
+  .Nahore {
+    display: flex;
+  }
+  .CestovatelObr {
+    order: 2;
+    width: 490px;
+    margin-left: 60px;
+  }
+  .Cestovatel {
+    width: 425px;
+  }
+  .Uvod {
+    width: 490px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+  }
+  .hr {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  p {
+    text-align: left;
+  }
+  ul {
+    padding: 0;
+  }
+  hr {
+    margin: 10px 0 0 0;
+  }
+  h2 {
+    margin-top: 80px;
+    text-align: left;
+  }
+  .StredniCast,
+  .DolniCast {
+    display: flex;
+  }
+  .Sluzby {
+    order: -1;
+    width: 550px;
+  }
+  .PopisVpravo {
+    margin-left: 60px;
+    width: 430px;
+  }
+  .PopisVlevo {
+    margin-right: 60px;
+    width: 430px;
+    padding: 120px 0 0 0;
+  }
+  .Delegati {
+    width: 550px;
+    margin-top: 80px;
+  }
+  .NadpisVlevo {
+    margin: 0;
   }
 }
